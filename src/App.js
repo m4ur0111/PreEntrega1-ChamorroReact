@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      <Home titulo="Crea recuerdos eternos con nosotros" />
     </>
 
   );
