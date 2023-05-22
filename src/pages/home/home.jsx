@@ -1,14 +1,14 @@
 import React from "react";
 import './style.scss';
 
-const Home = () => {
+function Home(props){
     return(
         <div className='home'>
             <div className="textoMain">
-                <h1>Crea recuerdos eternos con nosotros</h1>
+                <h1>{props.titulo}</h1>
             </div>
         </div>
     );
-};
+}
 
 export default Home;
